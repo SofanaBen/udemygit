@@ -8,4 +8,9 @@ public class MapPage extends TopNavigationBar {
 	public MapPage() {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
+    
+  public class TopNavigationBar {
+	PageFactory.initElements(Driver.getDriver(), this);
+	}  
+    
 }
